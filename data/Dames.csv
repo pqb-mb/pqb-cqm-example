@@ -1,0 +1,34 @@
+name, item_type , price ,calories,protein,sodium,carbs,color,dietary option
+The Classic, waffle , $ 8.00 ,358.0,9.7,629.0,40.0,Brown,V
+Sweet Potato, waffle , $ 8.00 ,284.4,9.7,42.7,47.0,Orange,V
+The Gingerbread, waffle , $ 9.00 ,244.9,8.9,403.0,46.3,Maroon,V
+The Vegan, waffle , $ 9.00 ,278.9,6.6,885.2,29.2,Beige,VG
+Strawberry-Creme,smear, $ 1.75 ,70.0,1.0,90.0,6.0,Pink,V
+Chocolate-Hazelnut,smear, $ 1.75 ,72.0,1.0,480.0,3.0,Brown,V
+Maple-Pecan,smear, $ 1.75 ,165.0,2.0,100.0,15.0,Maroon,V
+Baby-Blueberry,smear, $ 1.75 ,120.0,2.0,90.0,12.0,Blue,V
+Vanilla-Almond,smear, $ 1.75 ,90,1,130,6,White,V
+Orange-Honeycomb,smear, $ 1.75 ,70,1,45,6,Orange,V
+Peach-Apricot,smear, $ 1.75 ,70,2,95,7,Pink,V
+Maple Syrup,smear, $ 2.25 ,160,2,100,25,Yellow,V
+Two chicken drumsticks,chicken, $ 7.00 ,210.0,26.3,40,0.0,Brown,
+A chicken cutlet,chicken, $ 6.00 ,130.0,25.0,50.0,0.0,Brown,
+Three wings,chicken, $ 10.00 ,430.0,21.0,470.0,3.0,Maroon,
+Four drumsticks,chicken, $ 10.00 ,420.0,52.6,80.0,0.0,Brown,
+A panko-crusted chicken cutlet,chicken, $ 6.00 ,210,20,580,13,Yellow,
+Four wings,chicken, $ 12.00 ,573,28,627,4,Maroon,
+"What Da Cluck Chick'n Fried Cutlet (Vegetarian, Soy)",chicken, $ 7.00 ,270,17,530,23,Beige,V
+Sweet Whiskey Creme,drizzel, $ 2.00 ,289.0,2.0,233.0,2.0, Maroon , V 
+Honey Dijon,drizzel, $ 2.00 ,46.0,0.0,65.0,3.0, Yellow , VG 
+Caribbean Calypso,drizzel, $ 2.00 ,50.0,0.0,150.0,10.0, Red , VG 
+Asian Plum Sauce & Almonds,drizzel, $ 2.00 ,35.0,0.0,260.0,16.0, Purple , VG 
+Candied Pecans,drizzel, $ 2.00 ,132,2,82,10, Brown , VG 
+Pure Warmed Vermont Maple Syrup,drizzel, $ 2.00 ,104,0,4,26, Yellow , VG 
+Caramel & Salted Cashew,drizzel, $ 2.00 ,65,3,75,18, White , VG 
+a pair of eggs and creamy grits,side, $ 4.75 ,362.0,18.0,778.0,40.0,White,V
+Mean Collard Greens (Spicy),side, $ 4.00 ,63.0,5.0,50.0,11.0,Green,V
+Smooth Grits,side, $ 4.00 ,182.0,4.0,590.0,38.0,White,V
+Sautéed Squash & Onions,side, $ 4.00 ,86.0,12.0,310.0,2.0,Bronze,V
+Fresh-Cut Fruit,side, $ 4.00 ,80,0,10,18,Red,V
+Southern Potato Salad,side, $ 4.75 ,200,21,400,21,Pink,V
+Cheesy Ceci's Mac & Cheese,side, $ 4.00 ,270,14,500,22,Yellow,V

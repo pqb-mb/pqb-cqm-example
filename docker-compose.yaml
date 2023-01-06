@@ -1,0 +1,22 @@
+version: '3.7'
+services:
+  cqm_solver:
+    build:
+      context: ./
+      dockerfile: ./Docker
+    env_file:
+      - ./solver.env
+    networks:
+      - backend 
+    command: ["python3", 
+              "./cqm_dames_solver.py"
+              ]
+    volumes:
+      - ./:/app/
+      - ./examples:/app/examples
+      - ./data:/app/data
+      - ./results:/app/results
+  
+networks:
+  backend:
+    driver: bridge

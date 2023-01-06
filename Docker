@@ -1,0 +1,18 @@
+FROM ubuntu:20.04
+
+LABEL MAINTAINER="PolarisQB"
+
+RUN apt-get update
+RUN apt-get install -y python3-pip
+
+RUN mkdir /app
+COPY requirements.txt /app/requirements.txt
+RUN pip3 install -r /app/requirements.txt
+
+# tried to install dwave-inspector via pip and it wasn't working
+#RUN dwave install -y inspector
+
+RUN mkdir -p artifacts/results
+
+COPY data /app/data
+WORKDIR /app
