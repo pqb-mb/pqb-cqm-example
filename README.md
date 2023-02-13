@@ -1,5 +1,5 @@
-# A CQM approach to the Dame's Chicken and Waffles Problem!
-This work demonstrates the representation of the Dame's Chicken and Waffles problem as a Constrained Quadratic Model (CQM), and its solution using DWAVE Quantum Technology
+# A CQM approach to the Chicken and Waffles Problem!
+This work demonstrates the representation of the Chicken and Waffles problem as a Constrained Quadratic Model (CQM), and its solution using DWAVE Quantum Technology
 
 ## What is the Dame's Chicken and Waffle problem?
 It's a version of the Knapsack problem: when you go to [Dame's Chicken and Waffles](https://dameschickenwaffles.com/), which is a fantastic eatery in North Carolina, you will be greeted by a plethora of options to design your meal. You will have control over the kind of waffle, drizzle, chicken and other components that will comprise your meal. Each option comes with its own price, calorie count, color and many other attributes. What if you want to find out which meals you can construct that, for instance, consist of fewer than 700 calories? And what if you want to find such meals whilst keeping the price of the meal as low as possible?
