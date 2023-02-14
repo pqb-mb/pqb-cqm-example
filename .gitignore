@@ -1,6 +1,7 @@
 #solver
 solver.env
 .idea
+results/cqm_results
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
