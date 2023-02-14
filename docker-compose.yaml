@@ -9,7 +9,7 @@ services:
     networks:
       - backend 
     command: ["python3", 
-              "./cqm_dames_solver.py"
+              "./cqm_solver.py"
               ]
     volumes:
       - ./:/app/
