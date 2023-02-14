@@ -34,10 +34,10 @@ def read_and_format(csv_path):
         path of CSV containing data
     """
 
-    # store dames data in dataframe
+    # store data in dataframe
     df = pd.read_csv(csv_path)
 
-    # Format Dames CSV
+    # Format CSV
     df = df.rename(lambda name : name.strip(), axis="columns")
     df["index"] = df.index
     # Remove dollar-sign and convert price to float
@@ -502,7 +502,7 @@ def solve_cqm(input_csv, objective_column, one_hot_column, constraints, label):
         name to associate with the CQM run when submitting to DWave
     """
 
-    # Read in Dames Data
+    # Read in Data
     df = read_and_format(input_csv)
 
     # Print problem to screen
@@ -537,12 +537,12 @@ def solve_cqm(input_csv, objective_column, one_hot_column, constraints, label):
 
 if __name__ == "__main__":
 
-    INPUT_CSV = "/app/data/Dames.csv"
+    INPUT_CSV = "/app/data/chicken_waffles_data.csv"
     OBJECTIVE_COLUMN = "price"
     ONE_HOT_COLUMN = "item_type"
     CONSTRAINTS = [{"col_name" : "calories", "operator" : "<=", "comparison_value" : 700}]
     # name to associate with DWave sampling run
-    NAME = "Dames_CQM"
+    NAME = "Chicken_Waffles_CQM"
     # human-readable timestamp (in case of multiple runs)
     TIMESTAMP = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
 
