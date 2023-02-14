@@ -1,7 +1,6 @@
 #solver
 solver.env
 .idea
-results/*
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
