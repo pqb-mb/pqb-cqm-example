@@ -1,10 +1,10 @@
 # A CQM approach to the Chicken and Waffles Problem!
 This work demonstrates the representation of the Chicken and Waffles problem as a Constrained Quadratic Model (CQM), and its solution using DWAVE Quantum Technology
 
-## What is the Dame's Chicken and Waffle problem?
-It's a version of the Knapsack problem: when you go to [Dame's Chicken and Waffles](https://dameschickenwaffles.com/), which is a fantastic eatery in North Carolina, you will be greeted by a plethora of options to design your meal. You will have control over the kind of waffle, drizzle, chicken and other components that will comprise your meal. Each option comes with its own price, calorie count, color and many other attributes. What if you want to find out which meals you can construct that, for instance, consist of fewer than 700 calories? And what if you want to find such meals whilst keeping the price of the meal as low as possible?
+## What is the Chicken and Waffles problem?
+It's a version of the Knapsack problem: when you go to eat Chicken and Waffles, you will be greeted by a plethora of options to design your meal. For instance, you will have control over the kind of waffle, drizzle, chicken and other components that will comprise your meal. Each option comes with its own price, calorie count, color and many other attributes. What if you want to find out which meals you can construct that, for instance, consist of fewer than 700 calories? And what if you want to find such meals whilst keeping the price of the meal as low as possible?
 
-Well, this is the exact problem that has been solved in this example, but there are many such constraints that can be imposed upon the menu at Dame's Chicken and Waffles. The repository contains the Dame's Chicken and Waffle data in the `data` folder. Cook up your constraints and your own Dame's Chicken and Waffle problem!
+Well, this is the exact problem that has been solved in this example, but there are many such constraints that can be imposed upon the menu. The repository contains the menu data in the `data` folder. Cook up your constraints and your own Chicken and Waffle problem!
 
 ## What is the CQM approach?
 The problem above can be modeled as an optimization problem with constraints. That's exactly what a CQM is:
