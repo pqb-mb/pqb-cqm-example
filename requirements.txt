@@ -1,6 +1,3 @@
 pandas==1.3.4
 dwave-ocean-sdk==4.5.0
 beautifultable
-# dwave setup tools
-# dwave-inspector
-#dwave-system[drivers] --extra-index-url https://pypi.dwavesys.com/simple
