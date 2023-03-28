@@ -49,3 +49,11 @@ sudo docker-compose up
 - The results will be printed to the screen
 - They will also be stored in the results directory
 
+## Main steps to solve the problem
+1. Declare a CQM model. [example](https://github.com/pqb-mb/pqb-cqm-example/blob/main/cqm_solver.py#L439)
+2. Define all the binary variables. [example](https://github.com/pqb-mb/pqb-cqm-example/blob/main/cqm_solver.py#L15)
+3. Define the objective. [example](https://github.com/pqb-mb/pqb-cqm-example/blob/main/cqm_solver.py#L128)
+4. Define the one-hot constraints. [example](https://github.com/pqb-mb/pqb-cqm-example/blob/main/cqm_solver.py#L143)
+5. Define the inequality constraints. [example](https://github.com/pqb-mb/pqb-cqm-example/blob/main/cqm_solver.py#L158)
+6. Submit the model to D-Wave. [example](https://github.com/pqb-mb/pqb-cqm-example/blob/main/cqm_solver.py#L267)
+7. Save the results. [example](https://github.com/pqb-mb/pqb-cqm-example/blob/main/cqm_solver.py#L351)
